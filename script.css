@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+.images p {
+  font-size: 10px;
+  color: #0c5e69;
+  margin: 10px;
+}
+.table1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 60px 0;
+  width: 80%;
+}
+td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+}
+th {
+  border: 1px solid black;
+  padding: 5px;
+  background-color: #0c5e69;
+}
+.table2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 12%;
+}
+.tableu2 {
+  border-collapse: collapse;
+  width: 1000px;
+}
+.tableu2 th {
+  text-align: left;
+}
+.tableu2 td {
+  text-align: left;
+}
+h3 {
+  color: rgb(218, 218, 69);
+}
+button {
+  background-color: rgb(223, 63, 63);
+  border: 0;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 8px;
+  color: white;
+}
+.vector {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.table3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 12%;
+}
+.tableu3 {
+  border-collapse: collapse;
+  width: 1000px;
+}
+.tableu3 th {
+  text-align: left;
+}
+.tableu3 td {
+  text-align: left;
+}
+.button {
+  background-color: rgb(223, 63, 63);
+}
+span {
+  color: rgb(223, 223, 37);
+  border: 0;
+}
+#buttonAjouterDepense {
+  cursor: pointer;
+}
+.formulaire {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50px, -50px);
+  width: 360px;
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+.formulaire.formcontent h3 {
+  color: #0c5e69;
+  text-align: center;
+  margin: 10px 0 50px;
+}
+
+input {
+  padding: 10px;
+}
+.title {
+  text-align: center;
+}
+label {
+  color: #0c5e69;
+  margin-bottom: 7px;
+}
+input[type="submit"] {
+  background-color: #0c5e69;
+  color: white;
+  cursor: pointer;
+  border: 0;
+  margin-top: 10px;
+}
+.formDepense {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.formulaireRevenu {
+  display: none;
+  position: absolute;
+  overflow: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50px, -50px);
+  width: 360px;
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+.formulaireRevenu P {
+  color: #0c5e69;
+}
+.formulaireRevenu .formcontentRevenu h3 {
+  color: #0c5e69;
+  text-align: center;
+  margin: 10px 0 50px;
+}
+.formulaireRevenu .formcontentRevenu .formDepenseRevenu {
+  margin: 30px 0;
+}
+.formulaireRevenu .formcontentRevenu .formDepenseRevenu input[type="text"],
+#validerRevenu {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: 1px solid #6b6868;
+  outline: none;
+  border-radius: 5px;
+}
+#validerRevenu {
+  border: 0;
+  width: 100%;
+}
+
+.formulaireRevenu .formcontentRevenu .formDepenseRevenu label {
+  color: #0c5e69;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.formulaire .hidden {
+  display: none;
+}
+.closeButtonRevenu {
+  width: 15px;
+  height: 20px;
+  border-radius: 15px;
+  background-color: #888;
+  color: #eee;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+  text-align: center;
+}
+.closebutton {
+  width: 15px;
+  height: 20px;
+  border-radius: 15px;
+  background-color: #888;
+  color: #eee;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+  text-align: center;
+}
+#boutonAjouterRevenu {
+  cursor: pointer;
+}
+#buttonDepense {
+  cursor: pointer;
+}
+.formulaire .hidden {
+  display: none;
+}
+.formulaireRevenu .hidden {
+  display: none;
+}

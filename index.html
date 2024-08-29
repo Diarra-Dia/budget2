@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="script.css" />
+    <title>budget</title>
+  </head>
+  <body>
+    <header>
+      <div class="images">
+        <img
+          src="image/Group_5-removebg-preview.png"
+          alt=""
+          width="100px"
+          height="50px"
+        />
+        <p class="p">Gestion du budget</p>
+      </div>
+    </header>
+    <div class="table1">
+      <table>
+        <thead>
+          <tr>
+            <th>Budget</th>
+            <th>Dépenses</th>
+            <th>Solde</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td id="totalRevenu"></td>
+            <td class="MontantTotalDesDepensesEnregistrer"></td>
+            <td id="Solde"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="table2">
+      <h3>Liste des dépenses</h3>
+      <table class="tableu2">
+        <thead>
+          <thead class="">
+            <tr>
+              <th>TITRE</th>
+              <th>MONTANT</th>
+              <th>ACTION</th>
+            </tr>
+          </thead>
+        </thead>
+
+        <tbody class="tbody1">
+          <tr>
+            <td>
+              <div class="vector">
+                <span>AJOUTER DÉPENSE</span>
+                <span
+                  ><img src="image/addcircle.png" alt="" id="buttonDepense"
+                /></span>
+              </div>
+            </td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="formulaire hidden">
+        <div>
+          <img src="image/Group_5-removebg-preview.png" alt="" />
+        </div>
+        <div class="closebutton" id="closeModal">&times;</div>
+        <div class="formcontent">
+          <h3 class="title">AJOUTER DÉPENSE</h3>
+          <div class="formDepense">
+            <label for="titreDepense">TITRE</label>
+            <input type="text" id="titreDepense" placeholder="Électricité" />
+          </div>
+          <div class="formDepense">
+            <label for="montantDepense">MONTANT</label>
+            <input type="text" id="montantDepense" placeholder="35000" />
+          </div>
+          <div class="formDepense">
+            <input type="submit" id="validerDepense" value="VALIDER" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="table3">
+      <h3>Liste des revenus</h3>
+      <table class="tableu3">
+        <thead>
+          <thead class="">
+            <tr>
+              <th>TITRE</th>
+              <th>MONTANT</th>
+              <th>ACTION</th>
+            </tr>
+          </thead>
+        </thead>
+
+        <tbody class="tbody3">
+          <tr>
+            <td>
+              <div class="vector">
+                <span>AJOUTER REVENUS</span>
+                <span
+                  ><img
+                    src="image/addcircle.png"
+                    id="boutonAjouterRevenu"
+                    alt=""
+                /></span>
+              </div>
+            </td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="formulaireRevenu hidden">
+        <div>
+          <img src="image/Group_5-removebg-preview.png" alt="" />
+        </div>
+        <div class="closeButtonRevenu" id="closeModalRevenu">&times;</div>
+        <div class="formcontentRevenu">
+          <h3 class="title">AJOUTER REVENUS</h3>
+          <div class="formDepenseRevenu">
+            <label for="titreRevenu">TITRE</label>
+            <input type="text" id="titreRevenu" placeholder="Salaire" />
+          </div>
+          <div class="formDepenseRevenu">
+            <label for="montantRevenu">MONTANT</label>
+            <input type="text" id="montantRevenu" placeholder="15000" />
+          </div>
+          <div class="formDepenseRevenu">
+            <input type="submit" id="validerRevenu" value="VALIDER" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
